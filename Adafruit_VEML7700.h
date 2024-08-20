@@ -114,7 +114,7 @@ public:
   float readLux(luxMethod method = VEML_LUX_NORMAL);
 
 private:
-  const float MAX_RES = 0.0036;
+  const float MAX_RES = 0.0042; // as per Datasheet V 1.7
   const float GAIN_MAX = 2;
   const float IT_MAX = 800;
   float getResolution(void);
