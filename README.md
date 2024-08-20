@@ -1,7 +1,8 @@
 Adafruit_VEML7700 [![Build Status](https://github.com/adafruit/Adafruit_VEML7700/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_VEML7700/actions)
 ================
 
-This is the Adafruit VEML7700 Lux sensor library
+This is a fork from the  Adafruit VEML7700 Lux sensor library at https://github.com/adafruit/Adafruit_VEML7700
+The resolution is updated to 0.0042 according to the VEML7700 Datasheet Version V1.7
 
 Tested and works great with the [Adafruit VEML7700 Breakout Board](http://www.adafruit.com/)
 
