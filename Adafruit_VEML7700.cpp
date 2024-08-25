@@ -382,9 +382,9 @@ void Adafruit_VEML7700::readWait(void) {
   //   at least for the programmed integration time. For example,
   //   for ALS_IT = 100 ms a wait time of ≥ 100 ms is needed.
   //   '''
-  // Based on testing, it needs more. So doubling to be sure.
+  // Based on application Note, +30% should be considered. 
 
-  unsigned long timeToWait = 2 * getIntegrationTimeValue(); // see above
+  unsigned long timeToWait = 4 * getIntegrationTimeValue() / 3; // see above
   unsigned long timeWaited = millis() - lastRead;
 
   if (timeWaited < timeToWait)
